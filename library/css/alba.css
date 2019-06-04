@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.alba_img {
+	width: 410px;
+	height: 300px;
+	display: block;
+	margin: 0 auto 20px;
+}
+
+table {
+	margin: 0 auto;
+}
+
+td#button {
+	text-align: right;
+}
+
+td#button input {
+	width: 100px;
+	height: 70px;
+}

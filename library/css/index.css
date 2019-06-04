@@ -1,0 +1,17 @@
+section {
+    width: 100%;
+}
+.img_slide ul {
+    background-color: #5b9bd2;
+    list-style: none;
+    margin: 0px; 
+    padding: 0px;
+}
+.img_slide li {
+    text-align: center;
+}
+.img_slide img {
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}

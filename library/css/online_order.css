@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+
+#map_view {
+    width: 400px;
+    height: 400px;
+}
+
+#map {
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+
+#map > iframe {
+    width: 400px;
+    height: 400px;
+}
+
+#order_form {
+    float: none;
+    width: auto;
+    margin-left: 400px;
+    text-align: center;
+}
+#order_form table { 
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 10px 5px 10px;
+    margin: 0 auto; 
+    text-align: center; 
+}
+#order_form td {
+    padding-bottom: 5px;
+}
+#order_form #store, #address, #tel { width: 150px; }
+#number { width: 50%;}
+#menu { width: 150px; }
+#order_form #add_menu { float: right; }

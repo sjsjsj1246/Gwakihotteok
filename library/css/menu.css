@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*메뉴 페이지는 다 비슷하게 생겼을 테니 공통적으로 css를 작성하되 
+특별한 스타일을 적용해야 할 때는 id나 class를 지정해서 작업하는 것이 좋을 것 같습니다.*/
+
+html{
+	font-size: 10px;
+}
+
+table{
+	margin: 0 auto;
+}
+caption{
+	font-size: 1.6rem;
+	font-weight: bold;
+	background: #f0e4d5;
+	color: #4b4b4b;
+}
+td{
+	font-size: 1.3rem;
+	text-align: left;
+}
+.detail{
+	vertical-align: top;
+	background-color: white;
+}
+
+
+/*main_menu*/
+
+
+/*set_menu*/
+
+
+/*side_menu*/
+

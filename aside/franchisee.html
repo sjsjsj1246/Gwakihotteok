@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>가맹점 모집 | 과기호떡</title>
+    <meta charset="UTF-8">
+    <link href="../library/css/common.css" rel="stylesheet" type="text/css">
+    <link href="../library/css/franchisee.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        <iframe src="../header/header.html" frameborder="0" scrolling="no"></iframe>
+    </header>
+
+    <div id="contents">
+        <div id="title">
+            <h1>가맹점 모집</h1>
+        </div>
+        <div >
+            <img src="../image/etc/franchisee.png" class="franchise_img">
+        </div>
+        <table>
+                <caption>과기호떡 가맹점 지원 폼 작성하기</caption>
+    
+                <tr><td colspan="8"><hr></td></tr>
+    
+                <tr>
+                    <td>사업자명</td>
+                    <td>
+                        <input type="text" id="name">
+                    </td>
+                    <td>전화번호</td>
+                    <td>
+                        <input type="tel" id="tel">
+                    </td>
+                    <td>개시일</td>
+                    <td>
+                        <input type="date" value="2019-06-01">
+                    </td>
+                    <td>주소</td>
+                    <td>
+                        <input type="text" id="address">
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>은행명</td>
+                    <td>
+                        <input type="text" id="bank">
+                    </td>
+                    <td>계좌번호</td>
+                    <td colspan="3">
+                        <input type="text" id="account">
+                    </td>
+                    <td>예금주</td>
+                    <td>
+                        <input type="text" id="holder">
+                    </td>
+                </tr>
+    
+                <tr><td colspan="8"><hr></td></tr>
+    
+                <tr>
+                    <td colspan="8" id="button">
+                        <form name="fo" method="get">
+                            <input type="submit" value="제출" onclick="alert('제출 완료!')">
+                        </form>
+                    </td>
+                </tr>
+    
+            </table>
+    </div>
+    <footer>
+        <iframe src="../footer/footer.html" frameborder="0" scrolling="no"></iframe>
+    </footer>
+
+</body>
+
+</html>

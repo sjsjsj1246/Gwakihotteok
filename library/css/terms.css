@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+section #terms { margin: 20px 120px; } 
+section #terms #head { background-color: #ecddc9; padding: 35px 30px 30px 25px; border-radius: 10px;} 
+section #terms #head .head_title { padding-bottom: 7px; border-bottom: 2px solid #e72617 } 
+section #terms #head ol { padding-left: 10px; }
+section #terms #head ol li { list-style: none; }
+section #terms #head ol a { margin-bottom: 5px; color: #4d5d6e; font-weight: bold; font-size:14px; text-decoration: none; }
+section #terms #head ol a:hover { text-decoration: underline; }
+section #terms h2 { font-size: 18px; padding-bottom: 20px; border-bottom: 2px solid #bbc2ca; }
+section #terms .explanation{ font-size:13px; line-height: 2.0; }
+section .empty { height: 50px; }
+
+section .mid { background-color: #ecddc9; border-radius: 10px; padding: 10px 30px 0 0; margin-top: 50px; }
+section .mid ol { padding-left: 30px; }
+section .mid ol li { list-style: none; }
+section .up{ padding: 20px 0 40px 0; text-align: right; }

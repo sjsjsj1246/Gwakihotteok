@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: NanumGothic;
+    src: local(NanumGothic),
+    url(NanumGothic.ttf) format('truetype');
+
+}
+
+html {
+    font-family: NanumGothic, sans-serif;
+}
+
+body {
+    margin: 0px;
+    background-color: #f7f3f3;
+}
+
+#contents {
+    padding-top: 162px;
+    width: 100%;
+}
+
+#title {
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgb(172, 172, 172);
+}
+#title img {
+    width: 100%;
+    height: auto;
+}
+#title h1 {
+    font-size: 30px;
+    margin: 10px 0 10px 100px;
+	color: #333333;
+}
+#title p {
+    margin: 1px 0 1px 100px;
+}
+
+section {
+    float: left;
+    width: 100%;
+    margin: 0 -250px 8px 0;
+    padding: 0 250px 0 10px;
+    box-sizing: border-box;
+}
+
+header { 
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 350px; 
+    top: 0px;
+    left: 0px;
+}
+
+header > iframe {
+    width: 100%; 
+    height: 350px;
+}
+
+footer { 
+    width: 100%; 
+}
+footer > iframe { 
+    width: 100%; 
+}
+
+aside {
+    float: left;
+    text-align: center;
+    width: 250px;
+}
+
+aside > iframe {
+    width: 100%;
+    height: 550px;
+}

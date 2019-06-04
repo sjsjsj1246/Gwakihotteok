@@ -1,0 +1,23 @@
+@charset "utf-8";
+/*이벤트 리스트 페이지 스타일*/
+
+/*전체이벤트*/
+#event {margin: 0 120px; width: 100%; font-size: 1.17em; font-weight: bold;}
+#event h3{font-size: 0.9em; color:#333; margin :25px 0 0;}
+
+#event #event_lists{width: 100%; height: auto; margin: 25px 0;}
+/*왼쪽 이벤트*/
+#event #event_lists .eventList_fisrt {display: inline-block; text-align: center; }
+#event #event_lists .eventList_fisrt a{text-decoration: none;}
+#event #event_lists .eventList_fisrt dl dt {width: 280px; display: inline-block; overflow: hidden; text-overflow: ellipsis;
+    white-space: nowrap;color: #111; font-size: 14px; font-weight: bold;}
+#event #event_lists .eventList_fisrt dl img{float: right;}
+#event #event_lists .eventList_fisrt dl dd {padding: 0; border: 0; color: #666666; font-size: 11px; margin: 0 0 7px 7px;}
+
+/*오른쪽 이벤트*/
+#event  #event_lists .eventList_second{display: inline-block; padding: 0 0 0 15px; text-align: center;}
+#event  #event_lists .eventList_second a{text-decoration: none;}
+#event  #event_lists .eventList_second dl dt{width: 280px; display: inline-block;overflow: hidden;text-overflow: ellipsis;
+    white-space: nowrap;color: #111;font-size: 14px; font-weight: bold;}
+#event  #event_lists .eventList_second dl img{float: right;}
+#event  #event_lists .eventList_second dl dd {padding: 0; border: 0; color: #666666; font-size: 11px; margin: 0 0 7px 7px;}

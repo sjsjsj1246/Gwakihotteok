@@ -1,0 +1,21 @@
+
+.campus_map, .store_list {
+    float: left;
+}
+.campus_map {
+    width: 100%;
+}
+.campus_map img {
+    width: 100%;
+}
+.store_list {
+    width: 100%;
+}
+.store_list table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+.store_list .store_name {
+    width: 150px;
+}
