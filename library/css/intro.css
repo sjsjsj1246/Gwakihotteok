@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+ul li{list-style: none;}
+section
+{
+    position: relative;
+    height: 100vh;
+    display: flex;
+}
+section .screen
+{
+    flex-grow: 1;
+    transition: 1s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+section .screen
+{
+    background: #f7f3f3;
+}
+section .screen .card
+{
+    max-width: 300px;
+    text-align: center;
+    transition: 0.5s;
+}
+section .screen .card .img-box
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+section .screen .card .img-box img
+{
+    max-width: 100%;
+}
+section .screen .card a
+{
+    padding :10px 20px;
+    background: #262626;
+    color:#fff;
+    text-decoration: none;
+}
+.content
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 100px;
+    background:  #f7f3f3;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+section .screen .content
+{
+    line-height: 2;
+    font-size: 14px;
+}
+
+section .screen .card a:hover ~ .content,
+.content:hover
+{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-20px);
+}

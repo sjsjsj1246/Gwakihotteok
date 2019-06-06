@@ -1,3 +1,4 @@
+@charset "utf-8";
 
 .campus_map, .store_list {
     float: left;
@@ -18,4 +19,8 @@
 }
 .store_list .store_name {
     width: 150px;
+}
+
+.store_img img {
+	width: 350px; height: auto;
 }

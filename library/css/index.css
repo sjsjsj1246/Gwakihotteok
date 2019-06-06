@@ -1,3 +1,4 @@
+@charset "utf-8";
 section {
     width: 100%;
 }
@@ -9,6 +10,7 @@ section {
 }
 .img_slide li {
     text-align: center;
+    opacity: 0;
 }
 .img_slide img {
     vertical-align: middle;

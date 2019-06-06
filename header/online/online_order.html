@@ -4,6 +4,7 @@
 <head>
     <title>온라인 주문 | 과기호떡</title>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image⁄x-icon" href="../../image/Image_logo/Mini_logo.png">
     <link href="../../library/css/online_order.css" rel="stylesheet" type="text/css">
     <link href="../../library/css/common.css" rel="stylesheet" type="text/css">
     <script src="../../library/js/online_order.js" type="text/javascript"></script>
@@ -86,7 +87,7 @@
                             <td>수량</td>
                             <td>
                                 <input type="number" min="0" step="1" value="1" id="number">
-                                <input type="button" id="add_menu" value="추가" onclick="add_menu_f()">
+                                <input type="button" id="add_menu" value="추가" onclick="addOrderList()">
                             </td>
                         </tr>
                         <tr>
@@ -104,8 +105,8 @@
                         </tr>
                         <tr>
                             <td colspan="2">
-                                <input type="button" id="order" value="주문" onclick="order_f()">
-                                <button>초기화</button>
+                                <input type="button" id="order" value="주문" onclick="confirmOrder()">
+                                <input type="button" id="initialize" value="초기화" onclick="initializeOrder()">
                             </td>
                         </tr>
                     </tbody>

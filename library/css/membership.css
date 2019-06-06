@@ -1,0 +1,84 @@
+@charset "utf-8";
+.container
+{
+    position: relative;
+    width: 100%;
+    margin: 50px 0 0 70px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    grid-row-gap: 50px;
+    grid-column-gap: 0px;
+}
+.container .card
+{
+    width:390px;
+    height: 100%;
+    position: relative;
+    background:#ccc;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.container .card:hover
+{
+    transform: translateY(-20px);
+    box-shadow: 0 20px 20px rgba(0,0,0,.2);
+}
+.container .card .img-box
+{
+    position :absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.container .card:hover .img-box
+{
+    opacity: 0.5;
+}
+
+.container .card .img-box img
+{
+    width: 100%;
+    height: 100%;
+}
+.container .card .content
+{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    bottom:-100%;
+    padding :20px;
+    padding-top:60px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.5s;
+}
+.container .card:hover .content
+{
+    bottom:0; 
+}
+
+.container .card:nth-child(1) .content{
+    background: linear-gradient(0deg, #485466,transparent);
+}
+.container .card:nth-child(2) .content{
+    background: linear-gradient(0deg, #dbd575,transparent);
+}
+.container .card:nth-child(3) .content{
+    background: linear-gradient(0deg, #c21833,transparent);
+}
+.container .card .content h2{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 20px;
+}
+.container .card .content h2 span
+{
+    color: #fff;
+    font-size: 16px;
+}
