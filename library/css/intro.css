@@ -3,7 +3,6 @@
 ul li{list-style: none;}
 section
 {
-    position: relative;
     height: 100vh;
     display: flex;
 }
@@ -16,10 +15,6 @@ section .screen
     justify-content: center;
     align-items: center;
     overflow: hidden;
-}
-section .screen
-{
-    background: #f7f3f3;
 }
 section .screen .card
 {

@@ -35,6 +35,8 @@ function addOrderList() {
 
 function confirmOrder() {
     confirm("총 " +document.getElementById("price").innerHTML+ "원, 주문 하시겠습니까?")
+    orderCount = Array.apply(null, new Array(21)).map(Number.prototype.valueOf,0);
+    updateOrderList()
 }
 
 function initializeOrder() {

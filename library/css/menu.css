@@ -1,21 +1,29 @@
 @charset "utf-8";
 
-/*메뉴 페이지는 다 비슷하게 생겼을 테니 공통적으로 css를 작성하되 
-특별한 스타일을 적용해야 할 때는 id나 class를 지정해서 작업하는 것이 좋을 것 같습니다.*/
-
 html{
 	font-size: 10px;
 }
 
 table{
-	margin: 0 auto;
+	margin: 0 auto 10px;
+	width: 400px;
+	height: 200px;
 }
-caption{
+table caption{
 	font-size: 1.6rem;
 	font-weight: bold;
 	background: #f0e4d5;
 	color: #4b4b4b;
 }
+table caption img { width: 12px; height: 12px; }
+table#main_menu_table .menu_img img { width: 200px; height: 200px; }
+table#side_menu_table .menu_img img { width: 200px; height: 200px; }
+table#set_menu_table .menu_img img { width: 250px; height: 200px; }
+table .menu_name { text-align: left; padding-left: 10px;}
+table .menu_price { text-align: right; padding-right: 10px; }
+table .menu_name img { width: 20px; height: 16px; }
+table .menu_price img { width: 12px; height: 12px; }
+
 td{
 	font-size: 1.3rem;
 	text-align: left;
@@ -24,13 +32,3 @@ td{
 	vertical-align: top;
 	background-color: white;
 }
-
-
-/*main_menu*/
-
-
-/*set_menu*/
-
-
-/*side_menu*/
-
